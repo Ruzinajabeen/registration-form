@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+</head>
+<body>
+    <form action="https://www.example.com/login.php" method="post">
+        <P>
+            First Name:
+            <input type="text" name="First Name" size="15" maxlength="30"/>
+            Last Name:
+            <input type="text" name="Last Name" size="15" maxlength="30"/>
+        </P>
+
+        <p>
+            Gender:
+            <label><input type="radio" name="Gender" value="m"/>Male</label>
+           <label><input type="radio" name="Gender" value="f"/>Female</label>
+        </p>
+
+        <p>
+         Nationality:
+         <select name="Countries" multiple>
+          <option value="Pakistan">"Pakistan</option>  
+          <option value="Usa">"USA</option> 
+          <option value="Canada">"Canada</option> 
+          <option value="England">"England</option> 
+          <option value="Itly">"Itly</option> 
+          <option value="China">"China</option> 
+         </select>
+        </p>
+
+        <p>
+            Password:
+          <input type="password" name="password" size="15" maxlength="30">
+        </p>
+        <p>
+         Re-inter pasword:
+         <input type="pasword" name="pasword" size="15" maxlength="30">
+        </p>
+
+        <p>
+          Interestes:
+          <input type="checkbox" name="interestes" value="wmn"/>Interestes
+          Men's Clothing:
+          <input type="checkbox" name="interestes" value="wmn"/>Women's Clothing
+          <input type="checkbox" name="interestes" value="acc"/>Accessories
+          <input type="checkbox" name="interestes" value="elec"/>Electronics
+        </p>
+
+        <p>
+            Comments:
+            <textarea name="Comments" rows="4" cols="30">Enter Your Comments....</textarea>
+        </p>
+
+        <p>
+         upload profile picture:
+        </p>
+           <input type="file" name="dp"/>
+        <br/>
+        <br/>
+<input type="submit" value="upload"/>
+<input type="submit"/>
+<br/>
+<br/>
+<input type="image"src="sub.png" width="150"/>
+    </form>
+</body>
+</html>
